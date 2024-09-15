@@ -1,0 +1,16 @@
+/* Increase font size for toastr messages */
+#toast-container>.toast {
+  font-size: 1.3rem;
+  /* Change this to your desired font size */
+}
+
+#toast-container>.toast-success {
+  font-size: 1.5rem;
+  font-weight: 500;
+  /* Customize for success messages */
+}
+
+#toast-container>.toast-error {
+  font-size: 1.3rem;
+  /* Customize for error messages */
+}

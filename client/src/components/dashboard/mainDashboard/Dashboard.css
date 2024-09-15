@@ -1,0 +1,219 @@
+.left-section {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+}
+
+
+.logo {
+  margin: 0;
+  font-size: 7rem;
+  font-weight: 400;
+}
+
+.options {
+  color: #474444;
+  font-size: 2rem;
+  font-weight: 600;
+  box-shadow: 0px 0px 30px 0px #00000026;
+  height: 5rem;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.inner-group-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  width: 100%;
+}
+
+.logout {
+  color: #474444;
+  font-size: 2rem;
+  font-weight: 600;
+  height: 8rem;
+  width: 75%;
+  border-top: 3px solid;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.logout-container {
+  width: 100%;
+}
+
+
+.right-section {
+  width: 85%;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  overflow: auto;
+}
+
+.right-section-container {
+  height: 100vh;
+}
+
+.top-section {
+
+  height: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+}
+
+.card-1 {
+  background: #FFFFFF;
+  height: 58%;
+  width: 28%;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
+.card-2 {
+  background: #FFFFFF;
+  height: 58%;
+  width: 28%;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card-3 {
+  background: #FFFFFF;
+  height: 58%;
+  width: 28%;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card-1 .top-card {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 20%;
+  padding: 2rem 0 0 0;
+}
+
+.card-1 .count {
+  font-size: 4.6vw;
+  font-weight: 600;
+  color: #FF5D01;
+}
+
+.card-1 .count-label {
+  color: #FF5D01;
+  font-size: 2.4vw;
+  font-weight: 600;
+}
+
+.card-1 .card-info {
+  color: #FF5D01;
+  font-size: 2.4vw;
+  font-weight: 600;
+  padding: 0 0 3rem 0;
+}
+
+.card-2 .top-card {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10%;
+  padding: 2rem 0 0 0;
+}
+
+.card-2 .count {
+  font-size: 4.6vw;
+  font-weight: 600;
+  color: #60B84B;
+}
+
+.card-2 .count-label {
+  color: #60B84B;
+  font-size: 2.2vw;
+  font-weight: 600;
+}
+
+.card-2 .card-info {
+  color: #60B84B;
+  font-size: 2.4vw;
+  font-weight: 600;
+  padding: 0 0 3rem 0;
+}
+
+
+.card-3 .top-card {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10%;
+  padding: 2rem 0 0 0;
+}
+
+.card-3 .count {
+  font-size: 4.6vw;
+  font-weight: 600;
+  color: #5076FF;
+}
+
+.card-3 .count-label {
+  color: #5076FF;
+  font-size: 2.2vw;
+  font-weight: 600;
+}
+
+.card-3 .card-info {
+  color: #5076FF;
+  font-size: 2.4vw;
+  font-weight: 600;
+  padding: 0 0 3rem 0;
+}
+
+.bottom-section {
+  max-height: 100vh;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.trending {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.trending-container {
+  margin-top: 4%;
+}
+
+.main-container {
+  background: #000;
+  height: 100vh;
+  z-index: 1003;
+  /* width: 1000px; */
+}

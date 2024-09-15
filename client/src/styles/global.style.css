@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+:root {
+  /* bg colors */
+  --primary-bg: #F2F2F2;
+  --secondary-bg: #FFFFFF;
+  --dark-bg: #041325;
+
+  /* text color */
+  --primary-text-color: #474444;
+  --text-grey: #9F9F9F;
+  --text-white: #FFFFFF;
+
+  /* other color */
+  --light-blue: #B3C3FF;
+  --dark-blue: #5076FF;
+  --green: #60B84B;
+  --red: #D60000;
+
+  /* box shadow */
+  --box-shadow-1: 0px 0px 50px 0px #0019FF3D;
+  --box-shadow-2: 0px 0px 30px 0px #00000026;
+  --box-shadow-3: 0px 0px 14px 0px #0000001F;
+
+  /* font family */
+  --primary-font: "Poppins";
+  --secondary-font: "Jomhuria";
+}
+
+
+body,
+html {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  font-size: 10px;
+  color: var(--primary-text-color);
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--light-blue);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--dark-blue);
+}
+
+/* Background Color Classes */
+.bg-primary {
+  background-color: var(--primary-bg);
+}
+
+.bg-secondary {
+  background-color: var(--secondary-bg);
+}
+
+.bg-dark {
+  background-color: var(--dark-bg);
+}
+
+/* Text Color Classes */
+.text-primary {
+  color: var(--primary-text-color);
+}
+
+.text-grey {
+  color: var(--text-grey);
+}
+
+.text-white {
+  color: var(--text-white);
+}
+
+/* Other Color Classes */
+.bg-light-blue {
+  background-color: var(--light-blue);
+}
+
+.bg-dark-blue {
+  background-color: var(--dark-blue);
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.bg-red {
+  background-color: var(--red);
+}
+
+/* Box Shadow Classes */
+.box-shadow-1 {
+  box-shadow: var(--box-shadow-1);
+}
+
+.box-shadow-2 {
+  box-shadow: var(--box-shadow-2);
+}
+
+.box-shadow-3 {
+  box-shadow: var(--box-shadow-3);
+}
+
+/* Font family classes */
+.primary-font {
+  font-family: var(--primary-font);
+}
+
+.secondary-font {
+  font-family: var(--secondary-font);
+}

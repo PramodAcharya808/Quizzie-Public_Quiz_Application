@@ -1,0 +1,39 @@
+.question-card-stats {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  margin-top: 2%;
+}
+
+.question-text {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.p-card h2 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.p-card p {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.p-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  background: #FFFFFF;
+  border-radius: 0.5rem;
+  width: 18%;
+  height: 10rem;
+}
+
+.p-line-break {
+  height: 1px;
+  background: #9F9F9F;
+  width: 87%;
+  margin: 4% 0;
+}

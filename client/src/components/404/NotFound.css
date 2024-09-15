@@ -1,0 +1,17 @@
+h1 {
+  font-size: 5rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.logo404 {
+  font-size: 20rem;
+  font-weight: 400;
+}
+
+.span404 {
+  font-weight: 800;
+  color: black;
+}

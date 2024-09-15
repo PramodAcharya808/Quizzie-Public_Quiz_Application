@@ -1,0 +1,39 @@
+.question-card-stats {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  margin-top: 2%;
+}
+
+.question-text {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.q-card h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.q-card p {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.q-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 0.5rem;
+  width: 25%;
+  height: 10rem;
+}
+
+.line-break {
+  height: 1px;
+  background: #9F9F9F;
+  width: 85%;
+  margin: 4% 0;
+}

@@ -1,0 +1,173 @@
+@media screen and (min-width: 350px) and (max-width: 500px) {
+
+  ::-webkit-scrollbar {
+    width: 0rem;
+  }
+
+  .game-view-container {
+    display: block;
+  }
+
+  .question-overlay {
+    display: block;
+    border-radius: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background: white;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+
+
+  .question-text-holder {
+    width: 80%;
+    margin: 3rem auto;
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .game-options-container {
+    margin-top: 4rem;
+    grid-template-rows: 0%;
+    column-gap: 0rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .url-game-container {
+    margin-top: 4rem;
+    grid-template-rows: 0%;
+    column-gap: 0rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .text-option-holder {
+    padding: 1.5rem;
+    width: 80%;
+    height: 100%;
+    font-size: 2rem;
+  }
+
+
+  .game-continue-btn {
+    background: #60B84B;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem 6.5rem;
+    border-radius: 1rem;
+    margin-top: 15%;
+  }
+
+  .text-game-continue-btn {
+    background: #60B84B;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem 6.5rem;
+    border-radius: 1rem;
+    margin-top: 15%;
+  }
+
+  .url-option-holder {
+    background: #F0F0F0;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    height: 10rem;
+    width: 80%;
+  }
+
+  .url-option-holder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+  }
+
+  .texturl-game-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    column-gap: 35rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+  }
+
+  .texturl-option-holder {
+    background: #F0F0F0;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    height: 12rem;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+
+  }
+
+  .texturl-option-holder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+  }
+
+  .texturl-image {
+    width: 50%;
+    height: 100%;
+  }
+
+  .text-url-text {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .qna-result-container {
+    border-radius: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background: white;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+
+  .qna-result-container img {
+    height: 45%;
+    width: auto;
+  }
+
+  .congrats {
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+
+  .score-display {
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+
+  .poll-result-container {
+    border-radius: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background: white;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+
+
+  .poll-result-container p {
+    font-size: 3.4rem;
+    font-weight: 700;
+  }
+}

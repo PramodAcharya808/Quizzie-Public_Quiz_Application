@@ -1,0 +1,37 @@
+.poll-inner-container {
+  height: 100%;
+}
+
+.poll-info {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin: 5rem auto;
+  overflow: hidden;
+}
+
+.poll-question-name {
+  width: 80%;
+
+}
+
+.poll-question-name h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #5076FF;
+  text-wrap: pretty;
+
+}
+
+.poll-meta-data h2 {
+  color: #FF5D01;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.poll-container {
+  width: 85%;
+  margin: 0 auto;
+}

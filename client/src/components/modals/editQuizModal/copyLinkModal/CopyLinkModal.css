@@ -1,0 +1,53 @@
+.copy-quiz-link-container {
+  background: #FFFFFF;
+  border-radius: 1rem;
+  max-width: 70rem;
+  max-height: 40rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+.close-btn {
+  align-self: flex-end;
+  font-size: 3rem;
+  cursor: pointer;
+  position: relative;
+  bottom: 2%;
+}
+
+.created-message {
+  width: 60%;
+  text-align: center;
+}
+
+.created-message p {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.quizLink-copy {
+  width: 80%;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 1rem;
+  border: 0;
+  background: #EDEDED;
+  color: #474444;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 4rem 0 6rem 0;
+}
+
+.share-quiz {
+  background: #60B84B;
+  color: white;
+  width: 25%;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+}

@@ -1,0 +1,83 @@
+.analytics-container {
+  height: 100vh;
+}
+
+.analytics-top-container {
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.analytics-heading {
+  color: #5076FF;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+
+.analytics-bottom-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-collapse: collapse;
+  margin-top: 20px;
+  color: black;
+}
+
+thead {
+  color: white;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+td a {
+  color: black;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.action-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.edit {
+  color: blue;
+}
+
+.delete {
+  color: red;
+}
+
+.share {
+  color: green;
+}
+
+
+.right-corner {
+  border-radius: 0 1rem 1rem 0;
+}
+
+.left-corner {
+  border-radius: 1rem 0 0 1rem;
+}
+
+.no-quiz-message {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 2rem;
+}
